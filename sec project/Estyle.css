@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Segoe UI", system-ui, Arial, sans-serif;
+    background-color: #fff1e7;
+    color: #000000;
+    font-family: "Fira Sans", sans-serif;
+}
+.nav{
+    background-color:#212f48 ;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+}
+.nav span{ 
+    color: #e5c536;
+    margin-left: 20px;
+}
+.nav h2{
+    margin-left: 10px;
+
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover{
+    text-decoration: underline;
+    color: #e5c536;
+}
+.nav-btn{
+    background-color: #e5c536;
+    color: black;
+    border-radius: 25px;
+    border: #e5c536 solid; 
+    width: 95px;
+}
+.cover{
+    background-image: url("https://i.pinimg.com/736x/40/79/54/4079546d89edfdbd8329278d08e215e4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    height: 230px;
+     
+}
+.welcome{
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    margin-left: 20px;
+}
+.welcomee{
+    font-size: 60px;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    margin-left: 20px;
+}
+.discover{
+    font-size: 19px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: white;
+    margin-left: 20px;
+}
+.BTN{
+    color: black;
+    background-color: #e5c536;
+    border-radius: 25px;
+    border: #e5c536 solid; 
+    margin-left: 20px;
+}
+.body{
+    text-align: center;
+    margin-top: 45px;
+}
+.body h1::before,
+.body h1::after{
+    content: "";
+    width: 190px;
+    height: 2px;
+    background-color: #e5c536;
+}
+.body h1{
+    font-size: 38px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0px;
+    width: 80%;
+    align-items: center;
+   margin-top: 40px;
+    margin-left:10%;
+}
+.card{
+    background-color: white;
+    width: 10px;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px #00000015;
+    flex: 1;
+    height: 250px;
+    text-align: left;
+}
+.card img{
+    width: 100%;
+    height: 100px;
+    border-radius: 25px 10px 0px 0px;
+}
+.card h4{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.card p{
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.card a{
+    text-decoration: none;
+    color: #e5c536;
+    margin-left: 10px;
+    margin-top:5px ;
+}
+.Ff{
+    background-color:#212f48 ;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    margin-top: 50px;
+}
+.Ff span{
+    color: #e5c536;
+    margin-left: 20px;
+}
+.Ff a{
+    text-decoration: none;
+    color: white;
+}
+.Ff a:hover{
+    color: #e5c536;
+    text-decoration:underline;
+}
+.italic{
+    color: #e5c536;
+}
